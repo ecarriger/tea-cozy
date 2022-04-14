@@ -55,8 +55,14 @@ nav a {
 /*** Content ***/
 #mission {
     background-image: url(./assets/img-mission-background.jpg);
+    display: flex;
+    align-items: center;
     opacity: 0.9;
     height: 700px;
     width: 1200px;
     margin: 69px auto;
+}
+#mission-text {
+    padding: 10px;
+    width: 100%;
 }
